@@ -1,5 +1,4 @@
-/* styles.css */
-/* styles.css */
+
 body {
     font-family: Arial, sans-serif;
   }
@@ -8,6 +7,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    align-items: center;
   }
   
   h1 {
@@ -38,8 +38,59 @@ body {
   }
   
   .top-navbar{
-background-color: blue;
-color: aliceblue;
-padding: 8px 16px;
-font-size: 16px;
+  background-color: blue;
+  color: aliceblue;
+  padding: 8px 16px;
+  font-size: 16px;
   }
+
+ 
+
+.weather-info {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+
+.weather-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.weather-info, .forecast-info {
+  flex: 0 0 45%; 
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.weather-info h2, .forecast-info h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.weather-info img, .forecast-info img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.weather-info p, .forecast-info p {
+  margin: 5px 0;
+}
+

@@ -48,7 +48,7 @@ function displayWeatherData(currentData, forecastData) {
 
   // Display current weather information
   const currentWeatherHTML = `
-    <div>
+    <div class="weather-container">
       <h2>${city} - ${date}</h2>
       <img src="https://openweathermap.org/img/w/${icon}.png" alt="Weather Icon">
       <p>Temperature: ${temperature} °C</p>
@@ -69,13 +69,13 @@ function displayWeatherData(currentData, forecastData) {
     const forecastWindSpeed = forecast.wind.speed;
 
     forecastWeatherHTML += `
-      <div>
+      <section class="forcast-container>
         <p>Date: ${forecastDate}</p>
         <img src="https://openweathermap.org/img/w/${forecastIcon}.png" alt="Weather Icon">
         <p>Temperature: ${forecastTemperature} °C</p>
         <p>Humidity: ${forecastHumidity}%</p>
         <p>Wind Speed: ${forecastWindSpeed} m/s</p>
-      </div>
+      </section>
     `;
   }
 
