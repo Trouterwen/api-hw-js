@@ -17,5 +17,5 @@ on the page when a city is typed in you are given a weather card giving the weat
 
 ## Links
 Here is a link to the working code:
-here is a link to the this readme file:
-here is a link to the Github repo:
+here is a link to the this readme file: https://github.com/Trouterwen/api-hw-js/blob/main/README.md
+here is a link to the Github repo: https://github.com/Trouterwen/api-hw-js
